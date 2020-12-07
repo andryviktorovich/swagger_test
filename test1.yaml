@@ -1,0 +1,14 @@
+components:
+  schemas:
+    test_c:
+      type: "object"
+      properties:
+        state_test:
+          type: "object"
+          properties:
+            code:
+              type: "integer"
+              description: "Код ответа. Это не HTTP код. Список кодов см. в документации"
+            title:
+              type: "string"
+              description: "Тайтл ответа"
